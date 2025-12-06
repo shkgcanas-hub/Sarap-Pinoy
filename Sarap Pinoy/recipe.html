@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Hilary Kiera G. Cañas">
+  <meta name="description" content="Sarap Pinoy features authentic Filipino recipes including Adobo, Sinigang, Kare-Kare, and Menudo. Explore easy-to-follow guides, cooking tips, and Filipino culinary traditions.">
+  <meta name="keywords" content="Filipino recipes, Adobo, Sinigang, Kare-Kare, Menudo, Filipino cuisine, traditional Filipino dishes, easy Filipino cooking, Pinoy food, Filipino food culture">
+  <link rel="stylesheet" href="HKstyles/font-awesome.min.css">
+  <link rel="stylesheet" href="HKstyles/first.css">
+  <link rel="icon" type="image/x-icon" href="images/recipe_icon.ico">
+  <title>Sarap Pinoy</title>
+</head>
+    <body>
+
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#recipes-section">Recipes</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home"></section>
+
+            <div class="content-section">
+                <img src="images/chef.png" alt="Adobo">
+              <div class="text-content">
+
+                  <h1>Welcome to Sarap Pinoy!</h1>
+                      <p>
+                      Experience the heart and soul of the Philippines through its food.
+                      From the rich and savory adobo to the hearty and flavorful kare-kare,
+                      every dish tells a story of tradition, love, and celebration.
+                      </p>
+                      <p><b>Taste. Cook. Celebrate Filipino culture!</b></p>
+               </div>
+            </div>
+
+        </section>
+
+          <!--About Us (START)-->
+        <section id="about">
+          <div class="about-section">
+   
+            <div class="about-text">
+              <h5>About Us</h5>
+                <h4>Who We Are</h4>
+                  <p>
+                    Sarap Pinoy was created with a passion to showcase the diverse and flavorful dishes of the Philippines.
+                    Our goal is to bring Filipino cuisine closer to every home—whether you’re living in Luzon, Visayas, Mindanao, or abroad.
+                  </p>
+
+                <h4>Our Mission</h4>
+                  <p>
+                    To preserve and promote the rich culinary heritage of the Philippines by sharing easy-to-follow recipes, cultural stories, and kitchen tips.
+                  </p>
+
+                <h4>Our Vision</h4>
+                  <p>
+                    A world where Filipino food is recognized and celebrated on every dining table.
+                  </p>
+            </div><!--Closing tag sa div class "about-text"-->
+          </div> <!--Cloosing tag sa div class"about-section-->
+<section id="recipes">
+              <div class="about-image">
+                <img src="images/spices.png" alt="Spices">
+              </div>
+            </section>
+<!--About Us(END)-->
+<!--Recipe (START)-->
+        <section class="recipes-section" id="recipes-section">
+            <h2>Popular Recipes You Can't Miss</h2>
+              <p>From comfort food classics to exotic flavors, our featured recipes are sure to impress.</p>
+
+              <div class="recipes-container">
+                <a href="#recipe1" class="box"></a>
+
+                <div class="recipe-card">
+                  <img src="images/adobo-recipe.jpg" alt="">
+                    <h3>Adobo</h3>
+                      <p>A savory stew of chicken or pork simmered in soy sauce, vinegar, garlic, and bay leaves.</p>
+                      <a class="btn" href="#recipe1">See Full Details</a>
+                </div>
+
+    
+                <div class="recipe-card">
+                  <a href="#recipe2" class="box"></a>
+                    <img src="images/sinigang-recipe.jpg" alt="">
+                    <h3>Sinigang</h3>
+                    <p>A comforting sour soup made with tamarind, vegetables, and your choice of meat or seafood.</p>
+                  <a class="btn" href="#recipe2">See Full Details</a>
+                </div>
+
+                <div class="recipe-card">
+                  <a href="#recipe3" class="box"></a>
+                    <img src="images/Kare-kare-recipe.jpg" alt="">
+                    <h3>Kare-Kare</h3>
+                    <p>A rich peanut-based stew usually made with oxtail, tripe, and vegetables, served with shrimp paste.</p>
+                  <a class="btn" href="#recipe3">See Full Details</a>
+                </div>
+
+    
+                <div class="recipe-card">
+                  <a href="#recipe4" class="box"></a>
+                    <img src="images/menudo-recipe.jpg" alt="Menudo">
+                    <h3>Menudo</h3>
+                    <p>A tomato-based pork stew with potatoes, carrots, and liver for added flavor.</p>
+                  <a class="btn" href="#recipe4">See Full Details</a>
+                </div>
+
+              </div><!--Clossing tag sa div class"recipes-container"-->
+
+<!--MODAL-->
+<!--Recipe 1-->
+              <div id="recipe1" class="modal">
+                <a href="#close" class="modal-backdrop"></a>
+
+                <div class="modal-container">
+                  <a href="#close" class="modal-close" aria-label="Close">&times;</a>
+
+                <div class = "modal-content">
+                  <div class="modal-info">
+
+                    <div class="recipe-card">
+                      <h1>CHICKEN ADOBO</h1>
+
+                        <div class="recipe-info">
+                          <div> Prep Time: <strong>15 min</strong></div>
+                          <div> Cook Time: <strong>45 min</strong></div>
+                          <div> Servings: <strong>4</strong></div>
+                        </div>
+
+                        <img src="images/adobo-recipe.jpg" alt="Chicken Adobo">
+
+                        <div class="recipe-content">
+
+                          <div class="ingredients">
+                            <h2>Ingredients</h2>
+                              <ul>
+                                <li>1 kg chicken (cut into serving pieces)</li>
+                                <li>½ cup soy sauce</li>
+                                <li>⅓ cup vinegar</li>
+                                <li>1 head garlic (minced)</li>
+                                <li>1 onion (chopped)</li>
+                                <li>3 bay leaves</li>
+                                <li>1 tsp whole peppercorns</li>
+                                <li>1 tbsp brown sugar (optional)</li>
+                                <li>1 cup water</li>
+                                <li>Cooking oil</li>
+                              </ul>
+                          </div>
+
+                          <div class="preparation">
+                            <h2>Preparation</h2>
+                            <p>In a bowl, combine chicken, soy sauce, vinegar, garlic, peppercorns, and bay leaves. Marinate for at least 30 minutes.</p>
+                            <p>In a pan, heat oil and sauté onion and garlic until fragrant. Add marinated chicken and cook until lightly browned.</p>
+                            <p>Pour in the marinade and water. Cover and simmer for 30–40 minutes, stirring occasionally until the sauce thickens.</p>
+                            <p>Adjust seasoning to taste. Add brown sugar if desired for a sweeter flavor.</p>
+                            <p>Serve hot with steamed rice and enjoy the authentic Filipino flavor!</p>
+                          </div>
+
+                        </div><!--Cloosing tag sa class= "recipe-content"-->
+                        <p class="note"><strong>Note:</strong> You can use pork or a combination of pork and chicken for a richer taste!</p>
+
+                    </div><!--Cloosing tag sa class ="recipe-card"-->
+
+                  </div><!--Cloosing tag sa class ="modal-info"-->
+                </div><!--Cloosing tag sa class ="modal-content"-->
+
+              </div><!--Cloosing tag sa class ="modal-container"-->
+
+            </div><!--Cloosing tag sa class ="modal"-->
+  
+
+<!--Recipe2-->
+              <div id="recipe2" class="modal">
+                <a href="#close" class="modal-backdrop"></a> 
+
+                  <div class="modal-container">
+                    <a href="#close" class="modal-close" aria-label="Close">&times;</a>    <!--dili hilabtan dire tanan modal-->
+                    
+                  <div class ="modal-content">
+                    <div class="modal-info">
+
+                      <div class="recipe-card">
+                        <h1>SINIGANG</h1>
+
+                          <div class="recipe-info">
+                            <div> Prep Time: <strong>20 min</strong></div>
+                            <div> Cook Time: <strong>1 hr</strong></div>
+                            <div> Servings: <strong>4–5</strong></div>
+                          </div>
+
+                          <img src="images/sinigang-recipe.jpg" alt="Pork Sinigang">
+
+                          <div class="recipe-content">
+
+                            <div class="ingredients">
+                              <h2>Ingredients</h2>
+                                <ul>
+                                  <li>1 kg pork belly or ribs (cut into serving pieces)</li>
+                                  <li>8 cups water</li>
+                                  <li>2 medium tomatoes (quartered)</li>
+                                  <li>1 medium onion (quartered)</li>
+                                  <li>2 pieces taro (gabi), peeled and quartered</li>
+                                  <li>1 radish (sliced)</li>
+                                  <li>1 eggplant (sliced)</li>
+                                  <li>1 bundle kangkong (water spinach)</li>
+                                  <li>2 long green chili peppers</li>
+                                  <li>1 pack sinigang mix (tamarind soup base)</li>
+                                  <li>Fish sauce (to taste)</li>
+                                </ul>
+                            </div>
+
+                            <div class="preparation">
+                              <h2>Preparation</h2>
+                                <p>In a large pot, bring water to a boil. Add pork, tomatoes, and onions. Simmer for about 45 minutes or until the meat becomes tender.</p>
+                                <p>Add taro and continue simmering until it softens and thickens the broth slightly.</p>
+                                <p>Stir in radish, eggplant, and chili peppers. Cook for 5–7 minutes or until vegetables are tender.</p>
+                                <p>Add the sinigang mix and season with fish sauce to taste. Simmer for another 3–5 minutes.</p>
+                                <p>Finally, add kangkong leaves and cook for another minute before turning off the heat.</p>
+                                <p>Serve hot with steamed rice and enjoy the perfect balance of sour and savory flavors!</p>
+                            </div>
+
+                          </div><!--Cloosing tag sa class="recipe-content"-->
+
+                          <p class="note"><strong>Note:</strong> You can also make sinigang using shrimp, bangus (milkfish), or beef for delicious variations!</p>
+                      </div><!--Cloosing tag sa class="recipe-card"-->
+
+                    </div><!--Cloosing tag sa class="modal-info"-->
+                  </div><!--Cloosing tag sa class="modal-content"-->
+
+                  </div><!--Cloosing tag sa class="modal-container"-->
+
+              </div><!--Cloosing tag sa class="modal"-->
+
+
+<!--Recipe3-->
+              <div id="recipe3" class="modal">
+                <a href="#close" class="modal-backdrop"></a>
+
+                  <div class="modal-container">
+                    <a href="#close" class="modal-close" aria-label="Close">&times;</a>
+
+                  <div class = "modal-content">
+                    <div class="modal-info">
+
+                      <div class="recipe-card">
+                        <h1>KARE-KARE</h1>
+
+                          <div class="recipe-info">
+                            <div> Prep Time: <strong>25 min</strong></div>
+                            <div> Cook Time: <strong>1 hr 15 min</strong></div>
+                            <div> Servings: <strong>5–6</strong></div>
+                          </div>
+
+                          <img src="images/kare-kare-recipe.jpg" alt="Kare-Kare">
+
+                          <div class="recipe-content">
+
+                            <div class="ingredients">
+                              <h2>Ingredients</h2>
+                                <ul>
+                                  <li>1 kg oxtail (cut into 2-inch pieces, you can add tripe if desired)</li>
+                                  <li>6 cups water</li>
+                                  <li>2 tbsp annatto seeds (atsuete)</li>
+                                  <li>3 tbsp peanut butter (or ground roasted peanuts)</li>
+                                  <li>1 tbsp toasted rice flour (to thicken sauce)</li>
+                                  <li>1 medium eggplant (sliced)</li>
+                                  <li>1 banana heart (sliced)</li>
+                                  <li>1 bundle string beans (cut into 2-inch pieces)</li>
+                                  <li>1 bundle pechay (bok choy)</li>
+                                  <li>2 cloves garlic (minced)</li>
+                                  <li>1 onion (chopped)</li>
+                                  <li>Cooking oil</li>
+                                  <li>Salt and pepper (to taste)</li>
+                                  <li>Shrimp paste (bagoong) — for serving</li>
+                                </ul>
+                            </div>
+
+                            <div class="preparation">
+                              <h2>Preparation</h2>
+                                <p>In a large pot, boil oxtail in water for about 1 hour or until tender. Skim off any scum that forms on top. Set aside broth for later use.</p>
+                                <p>In a separate pan, heat oil and add annatto seeds. Stir until oil turns orange, then strain out the seeds.</p>
+                                <p>Using the same annatto oil, sauté garlic and onion until fragrant. Add the boiled oxtail and cook for a few minutes.</p>
+                                <p>Pour in the reserved broth and bring to a simmer. Stir in peanut butter (or ground peanuts) and rice flour. Mix well until the sauce thickens and becomes creamy.</p>
+                                <p>Add the vegetables — start with string beans and banana heart, then add eggplant and pechay. Cook until just tender.</p>
+                                <p>Season with salt and pepper. Serve hot with bagoong (shrimp paste) on the side — the perfect balance to this rich, nutty Filipino classic!</p>
+                            </div>
+    
+                          </div><!--Cloosing tag sa class="recipe-content"-->
+
+                          <p class="note"><strong>Note:</strong> Kare-Kare can also be made with pork hock, beef shank, or seafood for a unique twist!</p>
+                      </div><!--Cloosing tag sa class="recipe-card"-->
+                    
+                    </div><!--Cloosing tag sa class="modal-info"-->
+                  </div><!--Cloosing tag sa class="modal-content"-->
+
+                  </div><!--Cloosing tag sa class="modal-container"-->
+
+              </div><!--Cloosing tag sa class="modal"-->
+
+ <!--Recipe 4-->
+              <div id="recipe4" class="modal">
+                <a href="#close" class="modal-backdrop"></a>
+        
+                  <div class="modal-container">
+                    <a href="#close" class="modal-close" aria-label="Close">&times;</a>
+                  
+                  <div class = "modal-content">
+                    <div class="modal-info">
+
+                      <div class="recipe-card">
+                        <h1>PORK MENUDO</h1>
+
+                          <div class="recipe-info">
+                            <div> Prep Time: <strong>20 min</strong></div>
+                            <div> Cook Time: <strong>50 min</strong></div>
+                            <div> Servings: <strong>5</strong></div>
+                          </div>
+
+                          <img src="images/menudo-recipe.jpg" alt="Pork Menudo">
+
+                           <div class="recipe-content">
+                        
+                            <div class="ingredients">
+                              <h2>Ingredients</h2>
+                                <ul>
+                                  <li>1 kg pork (shoulder or belly, cut into small cubes)</li>
+                                  <li>1/4 kg pork liver (cut into cubes)</li>
+                                  <li>2 medium potatoes (diced)</li>
+                                  <li>1 carrot (diced)</li>
+                                  <li>1 bell pepper (chopped)</li>
+                                  <li>1 cup tomato sauce</li>
+                                  <li>2 medium tomatoes (chopped)</li>
+                                  <li>1 onion (chopped)</li>
+                                  <li>4 cloves garlic (minced)</li>
+                                  <li>2 cups water or pork broth</li>
+                                  <li>2 tbsp soy sauce</li>
+                                  <li>1 tbsp vinegar</li>
+                                  <li>1 tsp sugar (optional)</li>
+                                  <li>Cooking oil</li>
+                                  <li>Salt and pepper to taste</li>
+                                </ul>
+                            </div>
+
+                            <div class="preparation">
+                              <h2>Preparation</h2>
+                                <p>In a pan, heat oil and sauté garlic and onion until fragrant. Add tomatoes and cook until softened.</p>
+                                <p>Add the pork cubes and sauté until lightly browned. Pour in soy sauce and vinegar, then let it simmer for 5 minutes without stirring.</p>
+                                <p>Pour in tomato sauce and water or broth. Cover and simmer for about 30 minutes or until the pork becomes tender.</p>
+                                <p>Add the potatoes, carrots, and bell peppers. Continue to cook until vegetables are tender.</p>
+                                <p>Stir in the liver and cook for another 5–7 minutes. Season with salt, pepper, and a bit of sugar to balance the flavor.</p>
+                                <p>Serve hot with steamed rice — a colorful, hearty dish perfect for any Filipino gathering!</p>
+                            </div>
+    
+                          </div><!--Cloosing tag sa class="recipe-content"-->
+
+                          <p class="note"><strong>Note:</strong> You can also add green peas or raisins for a touch of sweetness and extra color!</p>
+                      </div><!--Cloosing tag sa class="recipe-card"-->
+
+                    </div><!--Cloosing tag sa class="modal-info"-->
+                  </div><!--Cloosing tag sa class="modal-content"-->
+                  
+                    </div><!--Cloosing tag sa class="modal-container"-->
+
+                </div><!--Cloosing tag sa class="modal"-->
+
+
+
+<!--Explore Button-->
+              <form action = "explore.html">
+                <div class="explore-container">
+                  <button class="explore-btn">Explore All Recipes</button>
+                </div>
+              </form>
+
+        </section><!--Cloosing tag sa class="recipes-section"-->
+<!--Recipe (END)-->
+
+
+
+<!-- Contact (START) -->
+        <section class="contact-section" id="contact">
+          <h2>Contact Us</h2>
+            <p class ="pc">We’d love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free to reach out.</p>
+
+          <div class="contact-container">
+
+      <!-- Contact Info -->
+            <div class="contact-info">
+              <h3>Get in Touch</h3>
+              <p>Address: Lampanusan, Kalilangan, Bukidnon</p>
+              <p>Phone: +63 951 480 9808</p>
+              <p>Email: <a href="mailto:kieracanas@gmail.com">kieracanas@gmail.com</a></p>
+              <p>Hours: Mon–Fri, 8:00 AM – 5:00 PM</p>
+            </div>
+
+
+      <!-- Contact Form -->
+            <div class="contact-form">
+              <h3>Send a Message</h3>
+
+                <form action="contact_response.html">
+                  <input type="text" placeholder="Your Name" required>
+                  <input type="email" placeholder="Your Email" required>
+                  <textarea rows="5" placeholder="Your Message" required></textarea>
+                  <button type="submit" class="send-btn">Send Message</button>
+                </form>
+            </div>
+
+          </div><!--Clossing tag sa class="contact-container"-->
+
+      </section><!--Clossing tag sa class="contact-section"-->
+<!--Contact (END)-->
+
+<!--Footer(Start)-->
+<footer class="footer">
+  <h3>FOLLOW US ON:</h3>
+
+    <div class="social-links">
+      <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+      <a href="mailto:hillarykiera.g.canas@lnhs.edu.ph"><i class="fa fa-envelope"></i></a>
+      <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+    </div>
+
+    <p>“Good food is the heart of every Filipino home.”</p>
+</footer>
+<!--Footer(END)-->
+
+    </body>
+  </html>
